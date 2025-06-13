@@ -155,10 +155,6 @@ Karakteristik utama Random Forest:
 ## Clasification Report
 **Classification Report** adalah ringkasan metrik evaluasi untuk model klasifikasi. Laporan ini memberikan wawasan tentang kinerja model dengan membandingkan label yang diprediksi terhadap label sebenarnya.
 Classification Report biasanya mencakup metrik berikut untuk setiap kelas:
-- **Precision**
-- **Recall**
-- **F1-score**
-- **Support**
 
 | **Metrik**  | **Deskripsi**                                                                                   |
 |-------------|--------------------------------------------------------------------------------------------------|
