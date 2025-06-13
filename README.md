@@ -187,16 +187,10 @@ Untuk mempermudah pemantauan dan analisis risiko attrition secara berkala, telah
 
 
 ## Conclusion
-Berdasarkan analisis terhadap data karyawan Jaya Jaya Maju, ditemukan bahwa tingkat attrition yang tinggi (lebih dari 10%) disebabkan oleh sejumlah faktor internal yang dapat diidentifikasi dan ditindaklanjuti. Faktor-faktor yang paling berpengaruh terhadap keputusan karyawan untuk resign antara lain adalah frekuensi lembur, jenis jabatan tertentu, serta tingkat keterlibatan kerja.
+Hasil analisis menunjukkan bahwa lembur yang berlebihan (overtime) dan jenis pekerjaan tertentu (job role) memiliki pengaruh besar terhadap keputusan karyawan untuk keluar dari perusahaan. Karyawan dengan posisi seperti Sales Executive, Research Scientist, dan Laboratory Technician cenderung memiliki beban kerja yang tinggi dan lebih sering lembur, sehingga mereka lebih berisiko mengalami kelelahan dan akhirnya resign. Oleh karena itu, pengelolaan beban kerja dan perhatian khusus pada jabatan-jabatan tersebut menjadi kunci penting dalam upaya menekan tingkat attrition.
 
-Dari hasil analisis, mayoritas karyawan yang meninggalkan perusahaan berasal dari posisi-posisi seperti Sales Executive, Research Scientist, dan Laboratory Technician, yang juga cenderung memiliki tingkat beban kerja dan lembur lebih tinggi. Selain itu, karyawan yang sering melakukan perjalanan dinas dan memiliki jam kerja yang berlebihan menunjukkan risiko resign yang lebih tinggi dibandingkan kelompok lainnya.
-
-Dashboard interaktif yang telah dikembangkan memungkinkan tim HR untuk memonitor kondisi ini secara real-time dan melakukan deteksi dini terhadap karyawan yang berisiko tinggi untuk keluar. Hal ini akan sangat membantu dalam merancang strategi retensi yang lebih tepat sasaran dan efisien.
-
-Secara keseluruhan, proyek ini berhasil memberikan wawasan yang kuat mengenai penyebab utama attrition di perusahaan serta menyediakan alat bantu visualisasi data untuk pengambilan keputusan yang lebih baik ke depannya.
 
 ### Rekomendasi Action Items (Optional)
  Beberapa rekomendasi item yang bisa diterapkan oleh perusahaan Jaya Jaya Maju:
- 1. Sebanyak 65% karyawan yang sering resign adalah overtime, maka dari itu perusahaan bisa melakukan evaluasi beban kerja dan distribusi jam lembur
+ 1. Sebanyak 307 karyawan yang sering resign adalah overtime, maka dari itu perusahaan bisa melakukan evaluasi beban kerja dan distribusi jam lembur
  2. Potensi prediksi attrition dibagian JobRole tertinggi adalah Sales Executive, Research Scientist, dan Laboratory Technician, bisa  diakukan survei kepuasan kerja internal atau evaluasi kepemiminan di depatremen tersebut.
- 3. Evaluasi faktor Program Keseimbangan Kerja dan Kehidupan (Work-Life Balance): Mengingat tingginya tingkat lembur berhubungan erat dengan attrition, perusahaan bisa menginisiasi program kerja fleksibel, cuti tambahan, atau kebijakan remote working terbatas untuk jabatan tertentu.
