@@ -126,29 +126,29 @@ Dataset ini berisi informasi demografis dan metrik terkait pekerjaan dari karyaw
 
 # Data Preparation
 ## 1. Mengatasi Missing Value
-Missing value adalah data yang hilang dalam dataset. Jika tidak ditangani, dapat menyebabkan bias dalam pelatihan model atau bahkan membuat algoritma gagal dijalankan. Menjaga konsistensi dan integritas data dengan mengisi atau menghapus nilai-nilai yang hilang agar model tetap dapat dilatih dengan baik.
+Data yang tidak lengkap atau hilang dalam suatu dataset bisa memengaruhi akurasi model atau bahkan menyebabkan kegagalan saat pelatihan. Oleh karena itu, penting untuk membersihkan data dengan cara menghapus atau mengisi nilai yang kosong guna menjaga kualitas dan konsistensi dataset yang akan digunakan.
 
 ## 2. Mengatasi Outliers
-Outliers adalah nilai ekstrem yang jauh dari distribusi umum data. Kehadiran outliers dapat mengganggu proses pelatihan model, terutama dalam algoritma yang sensitif terhadap distribusi data. Mengurangi distorsi pada statistik dan model yang dihasilkan, serta meningkatkan stabilitas dan akurasi model.
+Nilai pencilan adalah data yang menyimpang jauh dari pola umum. Keberadaan outlier dapat memengaruhi performa model, terutama untuk algoritma yang sensitif terhadap distribusi data. Dengan menangani outlier, kita bisa menjaga keakuratan statistik dan hasil model, serta meningkatkan stabilitas dalam pelatihan.
 
 ## 3. Seleksi Fitur (Feature Selection)
-Seleksi fitur adalah proses memilih subset dari fitur yang paling relevan terhadap target. Terlalu banyak fitur yang tidak penting dapat menyebabkan overfitting. Meningkatkan performa model, mengurangi waktu pelatihan, dan mencegah kompleksitas berlebih yang dapat menurunkan generalisasi model.
+Proses ini bertujuan untuk memilih fitur-fitur yang paling berpengaruh terhadap variabel target. Fitur yang terlalu banyak dan tidak relevan dapat menyebabkan model terlalu kompleks dan rentan terhadap overfitting. Dengan memilih fitur yang tepat, pelatihan menjadi lebih efisien dan hasil model lebih dapat diandalkan.
 
 ## 4. Splitting Data
-Splitting data adalah proses membagi dataset menjadi data pelatihan dan data pengujian. Ini penting untuk mengevaluasi kinerja model secara adil.Untuk memastikan bahwa performa model diuji pada data yang belum pernah dilihat, sehingga mencerminkan kemampuannya dalam generalisasi.
+Membagi data ke dalam set pelatihan dan pengujian merupakan langkah penting untuk mengevaluasi kinerja model secara objektif. Hal ini memungkinkan pengujian model dilakukan pada data yang belum pernah dilihat sebelumnya, sehingga hasil evaluasi lebih mencerminkan kemampuan model dalam menggeneralisasi.
 
 ## 5. Standarisasi
-Standarisasi adalah proses menyamakan skala dari fitur-fitur numerik. Banyak algoritma machine learning bekerja optimal ketika fitur memiliki skala yang seragam. Meningkatkan kinerja dan konvergensi algoritma yang sensitif terhadap skala, seperti KNN, SVM, dan PCA.
+Proses ini bertujuan untuk menyeragamkan skala fitur numerik agar berada pada rentang yang sebanding. Beberapa algoritma seperti SVM, KNN, dan PCA sangat bergantung pada keseragaman skala untuk berfungsi secara optimal. Dengan standarisasi, konvergensi model menjadi lebih cepat dan hasil prediksi lebih akurat.
 
 # Model Development
 ## Model Random Forest Classifier
-**Random Forest** adalah algoritma ensemble learning berbasis decision tree yang menggabungkan prediksi dari banyak pohon untuk meningkatkan akurasi dan stabilitas model. Setiap pohon dalam Random Forest dilatih menggunakan subset acak dari data dan subset acak dari fitur. Pendekatan ini membuat model tahan terhadap overfitting dan sangat cocok untuk dataset dengan dimensi tinggi.
+**Random Forest** adalah ametode pembelajaran ensemble yang berbasis pada struktur decision tree. Teknik ini bekerja dengan menggabungkan hasil prediksi dari sejumlah pohon keputusan untuk meningkatkan akurasi serta stabilitas model. Setiap pohon dalam Random Forest dibangun dari sampel data dan fitur yang dipilih secara acak, menjadikan model ini lebih tahan terhadap overfitting dan efektif untuk data berdimensi tinggi.
 
 Karakteristik utama Random Forest:
-- Menggunakan **bagging (bootstrap aggregating)** untuk membuat pohon-pohon yang berbeda.
-- Menggabungkan hasil prediksi semua pohon (melalui voting untuk klasifikasi).
-- Cenderung memiliki performa yang baik meskipun terdapat missing values atau data yang tidak terlalu terstandarisasi.
-- Relatif tahan terhadap overfitting dibandingkan pohon keputusan tunggal.
+- Mengimplementasikan teknik bagging (bootstrap aggregating) untuk menghasilkan pohon-pohon yang bervariasi.
+- Mengombinasikan prediksi dari seluruh pohon, biasanya dengan mekanisme voting pada kasus klasifikasi.
+- Mampu menangani data yang memiliki missing value dan tidak terlalu terstandarisasi tanpa kehilangan performa secara signifikan.
+- Lebih andal dan stabil dibandingkan decision tree tunggal, terutama dalam hal menghindari overfitting.
 
 
 # Evaluation
