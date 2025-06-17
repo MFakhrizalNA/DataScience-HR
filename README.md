@@ -85,12 +85,9 @@ docker-compose down
 ### 6. Jalankan Predict Attrition
 
 ```bash
-stremlit run predict.py
+stremlit run dashboard_hr_app/predict.py
 ```
 
-```bash
-docker-compose down
-```
 
 # Data Understanding
 Dataset ini berisi informasi demografis dan metrik terkait pekerjaan dari karyawan, serta flag apakah karyawan tersebut melakukan attrition (keluar dari perusahaan).
