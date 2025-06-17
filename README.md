@@ -76,9 +76,17 @@ Login Metabase menggunakan akun berikut:
 | Email                                 | Password  |
 | ------------------------------------- | --------- |
 | [root@mail.com](mailto:root@mail.com) | root123 |
-```
 
 ### 5. Hentikan Docker
+
+```bash
+docker-compose down
+```
+### 6. Jalankan Predict Attrition
+
+```bash
+stremlit run predict.py
+```
 
 ```bash
 docker-compose down
