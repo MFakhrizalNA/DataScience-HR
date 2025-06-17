@@ -51,8 +51,8 @@ Setup environment docker
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/Sintasitinuriah/HR-ManagmentAttrition.git
-cd HR-ManagementAttrition
+git clone https://github.com/MFakhrizalNA/DataScience-HR.git
+cd DataScience-HR
 ```
 
 ### 2. Siapkan `docker-compose.yml`
