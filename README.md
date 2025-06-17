@@ -185,6 +185,9 @@ Untuk mempermudah pemantauan dan analisis risiko attrition secara berkala, telah
 - Top 5 Karyawan berpotensi keluar sesuai JobRole berdasarkan Attrition_Predicted. 
 - Segmentasi karyawan berdasarkan tingkat risiko attrition.
 
+Alternatif lain untuk dashboard project ini ada dalam looker studio: [Dashboard HR Management](https://lookerstudio.google.com/reporting/cc791618-bf2f-458a-9d21-33ffa6c25cf0)
+
+![dashboard](https://lookerstudio.google.com/reporting/cc791618-bf2f-458a-9d21-33ffa6c25cf0)
 
 ## Conclusion
 Hasil analisis menunjukkan bahwa lembur yang berlebihan (overtime) dan jenis pekerjaan tertentu (job role) memiliki pengaruh besar terhadap keputusan karyawan untuk keluar dari perusahaan. Karyawan dengan posisi seperti Sales Executive, Research Scientist, dan Laboratory Technician cenderung memiliki beban kerja yang tinggi dan lebih sering lembur, sehingga mereka lebih berisiko mengalami kelelahan dan akhirnya resign. Oleh karena itu, pengelolaan beban kerja dan perhatian khusus pada jabatan-jabatan tersebut menjadi kunci penting dalam upaya menekan tingkat attrition.
